@@ -5,14 +5,14 @@ interface student {
   location: string;
 }
 
-const student1 = {
+const student1: student = {
   firstName: "Eleanya",
   lastName: "Onuma",
   age: 25,
   location: "Nigeria",
 };
 
-const student2 = {
+const student2: student = {
   firstName: "Nneoma",
   lastName: "Irebo",
   age: 24,
