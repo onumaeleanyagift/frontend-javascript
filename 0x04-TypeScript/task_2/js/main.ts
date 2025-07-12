@@ -70,3 +70,19 @@ function executeWork(employee: Director | Teacher) {
 
 console.log(executeWork(createEmployee(200)));
 console.log(executeWork(createEmployee(1000)));
+
+type subjects = string;
+
+let subject1: subjects = "Math";
+let subject2: subjects = "History";
+
+function teachClass(todayClass: string) {
+  if (todayClass === subject1) {
+    return "Teaching Math";
+  } else {
+    return "Teaching History";
+  }
+}
+
+console.log(teachClass("Math"));
+console.log(teachClass("History"));
