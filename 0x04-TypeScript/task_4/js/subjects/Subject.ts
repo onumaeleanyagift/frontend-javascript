@@ -1,11 +1,4 @@
-export namespace Subjects {
-  export class Teacher {
-    name: string;
-    constructor(name: string) {
-      this.name = name;
-    }
-  }
-
+namespace Subjects {
   export class Subject {
     teacher: Teacher;
 
